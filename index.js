@@ -98,3 +98,51 @@ console.log("the answer is false cuz the operator checks for both value and type
 let num19 = "test" == "text";
 console.log(num19);
 console.log("this operator checks if both values are the same");
+
+//if-statement//
+let hamda = 30;
+let lami = 35;
+if(hamda >= lami){
+    console.log("Hamda has more");
+}else{
+    console.log("Lami has more");
+}
+
+let oranges = false;
+let bananas = false;
+let apple = false;
+
+if(oranges){
+    console.log("I got oranges");
+}else if(bananas){
+    console.log("I got bananas");
+}else if(apple){
+    console.log("I got apples");
+}else{
+    console.log("I got watermelon");
+}
+
+let A = 50;
+let B = 20;
+
+if(A > B){
+    console.log("A is more");
+}else{
+    console.log("B is more");
+}
+
+if("Banana" == "banana"){
+    console.log("hurray");
+}else{
+    console.log("hi")
+}
+
+
+let Year = new Date().getFullYear();
+let birthYear = 1995;
+let newAge = Year - birthYear;
+if(newAge >= 18){
+    console.log("You are qualified to vote")
+}else{
+    console.log("Sorry you are not 18 yet")
+}
